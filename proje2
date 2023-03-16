@@ -7,7 +7,7 @@ INSERT INTO ogrenciler(ad, soyad, sinif, ogrenci_no, cinsiyet) VALUES('Eren', ' 
 
 SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
-(Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır)
+(**Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır**)
 
 //////////////
 
