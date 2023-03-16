@@ -26,3 +26,13 @@ SELECT * FROM ogrenciler WHERE ad LIKE 'E%';
 
 (**Sadece baş harfi E olan kişileri tabloda gösterir**)
 
+SELECT * FROM ogrenciler WHERE ad LIKE '%E%';
+
+(**İsminde E olan kişileri tabloda gösterir**)
+
+SELECT * FROM ogrenciler WHERE ad LIKE '_E%';
+
+(**İsminin 2.harfi E olan kişileri tabloda gösterir.**)
+
+(**Ne kadar _ koyulursa belirtilen harf yeri değişir mesela eğer ki __E koyulursa 3.harfi E olan kişileri toplar**)
+
