@@ -1,0 +1,3 @@
+SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
+
+(Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır)
