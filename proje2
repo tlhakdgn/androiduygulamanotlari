@@ -6,4 +6,10 @@ SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
 SELECT * FROM ogrenciler WHERE cinsiyet = 'Erkek' AND ogrenci_no = '9882';
 
-(Sadece Erkek ve No'su 9882 olan öğrenciyi gösterir)
+(Sadece Erkek ve No'su 9882 olan öğrenciyi tabloda gösterir)
+
+//////////////
+
+SELECT * FROM ogrenciler WHERE ad LIKE 'E%';
+
+(Sadece baş harfi E olan kişileri tabloda gösterir)
