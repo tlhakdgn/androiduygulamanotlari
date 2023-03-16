@@ -36,3 +36,11 @@ SELECT * FROM ogrenciler WHERE ad LIKE '_E%';
 
 (**Ne kadar _ koyulursa belirtilen harf yeri değişir mesela eğer ki __E koyulursa 3.harfi E olan kişileri toplar**)
 
+//////////////
+
+(**ORDER BY, tabloda kayıtları artan düzeyde sıralar. Azalan kayıtları sıralamak istersem DESC anahtar sözcüğünü kullanmalıyım**)
+
+ÖRNEK: SELECT *FROM ogrenciler ORDER BY ogrenci_no(Artan)
+       SELECT *FROM ogrenciler ORDER BY ogrenci_no DESC(Azalan)
+
+
