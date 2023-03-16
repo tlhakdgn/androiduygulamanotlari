@@ -43,4 +43,9 @@ SELECT * FROM ogrenciler WHERE ad LIKE '_E%';
 ÖRNEK: SELECT *FROM ogrenciler ORDER BY ogrenci_no(Artan)
        SELECT *FROM ogrenciler ORDER BY ogrenci_no DESC(Azalan)
 
+//////////////
+
+UPDATE ogrenciler SET soyad = 'Akdoğanözü' WHERE ad = 'Talha'
+
+(**Tablodaki kayıtlı bir öğrencinin bilgilerini güncelleme**)
 
