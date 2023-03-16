@@ -8,19 +8,25 @@ INSERT INTO ogrenciler(ad, soyad, sinif, ogrenci_no, cinsiyet) VALUES('Eren', ' 
 
 (**Öğrencileri tanımlama**)
 
+
 //////////////
+
 
 SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
 (**Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır**)
 
+
 //////////////
+
 
 SELECT * FROM ogrenciler WHERE cinsiyet = 'Erkek' AND ogrenci_no = '9882';
 
 (**Sadece Erkek ve No'su 9882 olan öğrenciyi tabloda gösterir**)
 
+
 //////////////
+
 
 SELECT * FROM ogrenciler WHERE ad LIKE 'E%';
 
@@ -36,16 +42,18 @@ SELECT * FROM ogrenciler WHERE ad LIKE '_E%';
 
 (**Ne kadar _ koyulursa belirtilen harf yeri değişir mesela eğer ki __E koyulursa 3.harfi E olan kişileri toplar**)
 
+
 //////////////
+
 
 (**ORDER BY, tabloda kayıtları artan düzeyde sıralar. Azalan kayıtları sıralamak istersem DESC anahtar sözcüğünü kullanmalıyım**)
 
 ÖRNEK: SELECT *FROM ogrenciler ORDER BY ogrenci_no(Artan)
        SELECT *FROM ogrenciler ORDER BY ogrenci_no DESC(Azalan)
 
+
 //////////////
 
-UPDATE ogrenciler SET soyad = 'Akdoğanözü' WHERE ad = 'Talha'
+DELETE FROM ogrenciler WHERE ad = 'Talha'
 
-(**Tablodaki kayıtlı bir öğrencinin bilgilerini güncelleme**)
-
+(**Tabloda istenilen bir kayıtı veya kayıtları siler**)
