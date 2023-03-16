@@ -1,3 +1,10 @@
+
+INSERT INTO ogrenciler(ad, soyad, sinif, ogrenci_no, cinsiyet) VALUES('Eren', ' Genç', 'AMP11V', '9882', 'Erkek')
+
+(Öğrencileri tanımlama)
+
+//////////////
+
 SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
 (Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır)
@@ -13,3 +20,4 @@ SELECT * FROM ogrenciler WHERE cinsiyet = 'Erkek' AND ogrenci_no = '9882';
 SELECT * FROM ogrenciler WHERE ad LIKE 'E%';
 
 (Sadece baş harfi E olan kişileri tabloda gösterir)
+
