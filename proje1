@@ -1,0 +1,7 @@
+CREATE TABLE ogrenciler(
+  ad varchar,
+  soyad varchar,
+  sinif varchar,
+  ogrenci_no varchar,
+  cinsiyet varchar
+);
