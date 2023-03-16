@@ -1,3 +1,9 @@
 SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
 (Sadece AMP12V sınıfında ki öğrencileri tabloda çıkartır)
+
+//////////////
+
+SELECT * FROM ogrenciler WHERE cinsiyet = 'Erkek' AND ogrenci_no = '9882';
+
+(Sadece Erkek ve No'su 9882 olan öğrenciyi gösterir)
