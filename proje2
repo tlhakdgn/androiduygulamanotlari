@@ -1,7 +1,12 @@
 
+NOT: BAŞINDA VE SONUNDA ** OLANLAR AÇIKLAMA SATIRIDIR!!
+
+
+
+
 INSERT INTO ogrenciler(ad, soyad, sinif, ogrenci_no, cinsiyet) VALUES('Eren', ' Genç', 'AMP11V', '9882', 'Erkek')
 
-(Öğrencileri tanımlama)
+(**Öğrencileri tanımlama**)
 
 //////////////
 
@@ -13,11 +18,11 @@ SELECT * FROM ogrenciler WHERE sinif = 'AMP12V';
 
 SELECT * FROM ogrenciler WHERE cinsiyet = 'Erkek' AND ogrenci_no = '9882';
 
-(Sadece Erkek ve No'su 9882 olan öğrenciyi tabloda gösterir)
+(**Sadece Erkek ve No'su 9882 olan öğrenciyi tabloda gösterir**)
 
 //////////////
 
 SELECT * FROM ogrenciler WHERE ad LIKE 'E%';
 
-(Sadece baş harfi E olan kişileri tabloda gösterir)
+(**Sadece baş harfi E olan kişileri tabloda gösterir**)
 
